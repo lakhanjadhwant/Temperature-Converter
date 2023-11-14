@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-image: url(vv.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color:white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1:hover{
+    color:brown;
+}
+
+h2{
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+
+div{
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+input{
+    text-align: center;
+    background-color:white;
+    margin: 50px 5px 10px;
+    padding: 7px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 8px 10px rgba(177, 115, 238, 0.841);
+    transition: 0.5s;
+    
+}
+select{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding: 7px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:white;
+    box-shadow: 4px 8px 10px rgba(177, 115, 238, 0.841);
+    transition: 0.5s;
+
+
+}
+
+button{
+    margin-left: 230px;
+    margin-top: 50px;
+    background-color:#9980ff;
+    color: black;
+    cursor: pointer;   
+    width: 200px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+    text-transform: uppercase;
+    box-shadow: 2px 4px 8px black;
+    transition: 0.5s;
+    
+}
+
+button:hover{
+    box-shadow: 4px 8px 18px purple;
+}
+
+p{
+    text-align: center;
+    color: black;
+    margin: 50px 0 50px;
+    font-size: 26px;
+    letter-spacing: 1px;
+    height: 1em;
+    font-weight: bold;
+
+}
+p:hover{
+    font-size: 40px;
+    color:rgb(89, 7, 89);
+}
+   
